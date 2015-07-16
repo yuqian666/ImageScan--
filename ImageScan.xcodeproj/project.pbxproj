@@ -14,7 +14,6 @@
 		18AC717D1B43BCB700D9C105 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AC717C1B43BCB700D9C105 /* Images.xcassets */; };
 		18AC71801B43BCB700D9C105 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18AC717E1B43BCB700D9C105 /* LaunchScreen.xib */; };
 		18AC718C1B43BCB700D9C105 /* ImageScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC718B1B43BCB700D9C105 /* ImageScanTests.m */; };
-		18AC71971B43BD9700D9C105 /* ImageScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AC71961B43BD9700D9C105 /* ImageScanView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18377DD51B573E4F00FA809C /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
-		18377DD81B573E4F00FA809C /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
-		18377DD91B573E4F00FA809C /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
-		18377DDA1B573E4F00FA809C /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
 		18AC716C1B43BCB700D9C105 /* ImageScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC71701B43BCB700D9C105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AC71711B43BCB700D9C105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,8 +40,6 @@
 		18AC71851B43BCB700D9C105 /* ImageScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC718A1B43BCB700D9C105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AC718B1B43BCB700D9C105 /* ImageScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageScanTests.m; sourceTree = "<group>"; };
-		18AC71951B43BD9700D9C105 /* ImageScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanView.h; sourceTree = "<group>"; };
-		18AC71961B43BD9700D9C105 /* ImageScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScanView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,13 +60,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		18AB9A621B44D0A50040E6BF /* image */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = image;
-			sourceTree = "<group>";
-		};
 		18AC71631B43BCB700D9C105 = {
 			isa = PBXGroup;
 			children = (
@@ -100,14 +86,7 @@
 				18AC71761B43BCB700D9C105 /* ViewController.h */,
 				18AC71771B43BCB700D9C105 /* ViewController.m */,
 				18AC71791B43BCB700D9C105 /* Main.storyboard */,
-				18AC71951B43BD9700D9C105 /* ImageScanView.h */,
-				18AC71961B43BD9700D9C105 /* ImageScanView.m */,
-				18377DD51B573E4F00FA809C /* image1.png */,
-				18377DD81B573E4F00FA809C /* image2.png */,
-				18377DD91B573E4F00FA809C /* image3.png */,
-				18377DDA1B573E4F00FA809C /* image4.png */,
 				18AC717C1B43BCB700D9C105 /* Images.xcassets */,
-				18AB9A621B44D0A50040E6BF /* image */,
 				18AC717E1B43BCB700D9C105 /* LaunchScreen.xib */,
 				18AC716F1B43BCB700D9C105 /* Supporting Files */,
 			);
@@ -241,7 +220,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AC71781B43BCB700D9C105 /* ViewController.m in Sources */,
-				18AC71971B43BD9700D9C105 /* ImageScanView.m in Sources */,
 				18AC71751B43BCB700D9C105 /* AppDelegate.m in Sources */,
 				18AC71721B43BCB700D9C105 /* main.m in Sources */,
 			);
@@ -438,7 +416,6 @@
 				18AC71911B43BCB700D9C105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		18AC71921B43BCB700D9C105 /* Build configuration list for PBXNativeTarget "ImageScanTests" */ = {
 			isa = XCConfigurationList;
@@ -447,7 +424,6 @@
 				18AC71941B43BCB700D9C105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
